@@ -1,0 +1,23 @@
+name: hermes-mission-control
+repo: https://github.com/neshath/hermes-mission-control
+sha: cc0515b8a7ed1debefbf8d019e59b4f9f3e91075
+subdir: ""
+description: Local-first mission planning and observability dashboard for Hermes Agent.
+maintainer: Neshath
+tier: community
+category: general
+requires_hermes: ">=0.21.5"
+docs_url: https://github.com/neshath/hermes-mission-control
+version: "1.0.0"
+readme: true
+platforms: []
+title: "Hermes Mission Control"
+known_issues: []
+capabilities:
+  provides_tools:
+    - mission_plan
+    - mission_status
+  provides_hooks:
+    - post_tool_call
+  provides_middleware: []
+  requires_env: []
